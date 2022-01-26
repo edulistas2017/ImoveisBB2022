@@ -91,7 +91,7 @@ try:
     if not colunas:
         st.error("Favor selecionar ao menos uma coluna.")
     else:
-        # https://pythonforundergradengineers.com/streamlit-app-with-bokeh.html 
+        # https://pythonforundergradengineers.com/streamlit-app-with-bokeh.html
         # st.title("Simple Streamlit App")
         # st.text("Type a number in the box below")
         # n = st.number_input("Number", step=1)
@@ -100,7 +100,7 @@ try:
         # st.write(f"Hello {s}")
 
         st.markdown(
-            "<h1 style='text-align: center; color: White;background-color:#e84343'>Exposição do Dataframe</h1>",
+            "<h1 style='text-align: center; color: White;background-color:#e84343'>Exposição do Dataframe v.0.1</h1>",
             unsafe_allow_html=True,
         )
         st.markdown(
